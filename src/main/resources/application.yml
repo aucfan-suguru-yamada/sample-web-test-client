@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  jackson:
+    default-property-inclusion: NON_NULL
+logging:
+  charset:
+    console: UTF-8
+    file: UTF-8
+server:
+  error:
+    include-message: always
